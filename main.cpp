@@ -1,12 +1,12 @@
 #include <iostream>
 #include <vector>
-#include <algorithm> // Для std::swap
-#include <climits>   // Для INT_MAX
+#include <algorithm>
+#include <climits>
 
 using namespace std;
 
 int main() {
-    // Вхідні дані (можна змінити на введення з клавіатури)
+    // Вхідні дані
     vector<int> A = {10, -5, 20, 3, -8, 0, 15, 7, -2};
     int n = A.size();
 
